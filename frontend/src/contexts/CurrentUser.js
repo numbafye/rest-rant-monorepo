@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { useEffect, createContext, useState } from "react";
 
 function CurrentUserProvider({ children }) {
   const [currentUser, setCurrentUser] = useState(null);
